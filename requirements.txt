@@ -34,3 +34,4 @@ wcwidth==0.2.13
 statsmodels==0.14.5
 matplotlib==3.10.3
 scikit-learn==1.7.1
+prophet==1.1.7
