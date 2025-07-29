@@ -35,3 +35,7 @@ statsmodels==0.14.5
 matplotlib==3.10.3
 scikit-learn==1.7.1
 prophet==1.1.7
+streamlit==1.47.1
+readline==6.2.4.1
+langchain==0.3.27
+langchain_community==0.3.27
