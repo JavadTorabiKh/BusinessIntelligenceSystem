@@ -6,7 +6,7 @@ Comprehensive Business Data Processing and Analysis Platform
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#Features)
-- [API Endpoints](#API Endpoints)
+- [API Endpoints](#APIEndpoints)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Development](#Development)
