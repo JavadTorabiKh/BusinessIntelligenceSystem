@@ -148,7 +148,7 @@ Prerequisites
 Setup
 ```bash
     # Clone the repository
-    git clone https://github.com/yourcompany/business-analytics-api.git
+    git clone https://github.com/JavadTorabiKh/BusinessIntelligenceSystem.git
     cd business-analytics-api
 
     # Create virtual environment
