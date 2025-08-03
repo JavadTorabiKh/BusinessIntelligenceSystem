@@ -219,8 +219,8 @@ Project Structure
 - Open a Pull Request
 
 ## License
-This project is licensed under the Commercial License 
-
-Business Analytics API © 2023 
+This project is licensed under the MIT License 
 
 Maintained by javad torabi - javadtorabi462@gmail.com
+
+Business Analytics API © 2023 
