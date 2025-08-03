@@ -1,5 +1,6 @@
 # Business Analytics API - Documentation
 https://via.placeholder.com/150x50?text=Business+Analytics
+
 Comprehensive Business Data Processing and Analysis Platform
 
 ## Table of Contents
@@ -21,102 +22,102 @@ This API provides advanced business analytics capabilities for company data, off
 1. Prepare Monthly Data
 Description: Automates the consolidation and standardization of raw business data into structured monthly datasets.
 
-Capabilities:
+    Capabilities:
 
-- Data cleaning and normalization
-- Month-over-month reconciliation
-- Cross-data source validation
-- Output in analysis-ready format
+    - Data cleaning and normalization
+    - Month-over-month reconciliation
+    - Cross-data source validation
+    - Output in analysis-ready format
 
 2. Profitability Analysis
 Description: Deep dive into revenue streams and cost centers to identify profitability drivers.
 
-Metrics:
+    Metrics:
 
-- Gross/Net profit margins by product, region, channel
-- Contribution margin analysis
-- Break-even point calculation
-- Customer/product profitability ranking
+    - Gross/Net profit margins by product, region, channel
+    - Contribution margin analysis
+    - Break-even point calculation
+    - Customer/product profitability ranking
 
 3. Time Series Trend
 Description: Advanced time-based pattern recognition and visualization.
 
-Features:
+    Features:
 
-- Seasonality detection
-- Moving averages (7-day, 30-day, quarterly)
-- Year-over-year comparison
-- Trend decomposition (trend, seasonal, residual)
+    - Seasonality detection
+    - Moving averages (7-day, 30-day, quarterly)
+    - Year-over-year comparison
+    - Trend decomposition (trend, seasonal, residual)
 
 4. Top Performers
 Description: Identifies and ranks high-performance business elements.
 
-Dimensions:
+    Dimensions:
 
-- Top-selling products/services
-- Highest-growth regions
-- Most efficient departments
-- Best-performing marketing campaigns
+    - Top-selling products/services
+    - Highest-growth regions
+    - Most efficient departments
+    - Best-performing marketing campaigns
 
 5. Anomaly Detection
 Description: Automated identification of statistical outliers and unusual patterns.
 
-Methods:
+    Methods:
 
-- Z-score analysis
-- Moving range deviation
-- Machine learning-based anomaly scoring
-- Threshold-based alerts
+    - Z-score analysis
+    - Moving range deviation
+    - Machine learning-based anomaly scoring
+    - Threshold-based alerts
 
 6. Financial Forecasting
 Description: Predictive modeling for future business performance.
 
-Models:
+    Models:
 
-- ARIMA for short-term forecasting
-- Exponential smoothing
-- Regression-based projections
-- Scenario modeling (optimistic/pessimistic)
+    - ARIMA for short-term forecasting
+    - Exponential smoothing
+    - Regression-based projections
+    - Scenario modeling (optimistic/pessimistic)
 
 7. Cost Allocation Analysis
 Description: Detailed breakdown and attribution of organizational costs.
 
-Approaches:
+    Approaches:
 
-- Activity-based costing
-- Departmental cost distribution
-- Product/service cost absorption
-- Overhead allocation visualization
+    - Activity-based costing
+    - Departmental cost distribution
+    - Product/service cost absorption
+    - Overhead allocation visualization
 
 8. Auto-Tagging
 Description: Intelligent categorization of transactions and records.
 
-Features:
+    Features:
 
-- NLP-based description analysis
-- Rule-based classification
-- Machine learning categorization
-- Custom taxonomy support
+    - NLP-based description analysis
+    - Rule-based classification
+    - Machine learning categorization
+    - Custom taxonomy support
 
 9. Cash Flow Cycle
 Description: Working capital and liquidity analysis.
 
-Metrics:
+    Metrics:
 
-- Days Sales Outstanding (DSO)
-- Days Payable Outstanding (DPO)
-- Days Inventory Outstanding (DIO)
-- Cash conversion cycle visualization
+    - Days Sales Outstanding (DSO)
+    - Days Payable Outstanding (DPO)
+    - Days Inventory Outstanding (DIO)
+    - Cash conversion cycle visualization
 
 10. Interactive Reports
 Description: Dynamic, parameter-driven business intelligence.
 
-Components:
+    Components:
 
-- Drill-down capabilities
-- Filtering by multiple dimensions
-- Export to PDF/Excel
-- Scheduled report generation
+    - Drill-down capabilities
+    - Filtering by multiple dimensions
+    - Export to PDF/Excel
+    - Scheduled report generation
 
 ## API Endpoints
 
