@@ -1,4 +1,4 @@
-# Business Analytics API - Documentation
+# Business Intelligence System - Documentation
 https://via.placeholder.com/150x50?text=Business+Analytics
 
 Comprehensive Business Data Processing and Analysis Platform
