@@ -221,5 +221,6 @@ Project Structure
 ## License
 This project is licensed under the Commercial License 
 
-Business Analytics API © 2023 - javad torabi
-Maintained by [javad torabi] - javadtorabi462@gmail.com
+Business Analytics API © 2023 
+
+Maintained by javad torabi - javadtorabi462@gmail.com
