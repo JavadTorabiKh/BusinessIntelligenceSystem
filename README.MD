@@ -4,14 +4,14 @@ https://via.placeholder.com/150x50?text=Business+Analytics
 Comprehensive Business Data Processing and Analysis Platform
 
 ## Table of Contents
-- Overview
-- Features
-- API Endpoints
-- Installation
-- Usage
-- Development
-- Contributing
-- License
+- [Overview](#overview)
+- [Features](#Features)
+- [API Endpoints](#API Endpoints)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Development](#Development)
+- [Contributing](#Contributing)
+- [License](#License)
 
 
 ## Overview
