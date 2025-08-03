@@ -137,77 +137,89 @@ Description: Dynamic, parameter-driven business intelligence.
 | `/api/v1/reports` | POST | Generate interactive reports | `report_type`, `parameters` |
 
 
-Installation
+## installation
+
 Prerequisites
-Python 3.8+
 
-PostgreSQL 12+ (or preferred database)
-
-Redis (for caching)
+- Python 3.8+
+- PostgreSQL 12+ (or preferred database)
+- Redis (for caching)
 
 Setup
-bash
-# Clone the repository
-git clone https://github.com/yourcompany/business-analytics-api.git
-cd business-analytics-api
+```bash
+    # Clone the repository
+    git clone https://github.com/yourcompany/business-analytics-api.git
+    cd business-analytics-api
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    # Create virtual environment
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-# Install dependencies
-pip install -r requirements.txt
+    # Install dependencies
+    pip install -r requirements.txt
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your configuration
+    # Configure environment
+    cp .env.example .env
+    # Edit .env with your configuration
 
-# Initialize database
-flask db upgrade
+    # Initialize database
+    flask db upgrade
 
-# Run the application
-flask run
-Usage
+    # Run the application
+    flask run
+```
+
+
+## Usage
+
 Authentication
-bash
-curl -X POST https://api.yourdomain.com/auth \
-  -H "Content-Type: application/json" \
-  -d '{"username":"your_username", "password":"your_password"}'
+
+```bash
+    curl -X POST https://api.yourdomain.com/auth \
+    -H "Content-Type: application/json" \
+    -d '{"username":"your_username", "password":"your_password"}'
+```
+
 Example API Call
-bash
-curl -X POST https://api.yourdomain.com/api/v1/profitability \
-  -H "Authorization: Bearer YOUR_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"period": {"start": "2023-01-01", "end": "2023-03-31"}, "segmentation": ["product", "region"]}'
-Development
+
+```bash
+    curl -X POST https://api.yourdomain.com/api/v1/profitability \
+    -H "Authorization: Bearer YOUR_TOKEN" \
+    -H "Content-Type: application/json" \
+    -d '{"period": {"start": "2023-01-01", "end": "2023-03-31"}, "segmentation": ["product", "region"]}'
+```
+## Development
+
 Project Structure
-text
-business-analytics-api/
-├── app/                  # Application code
-│   ├── core/            # Core functionality
-│   ├── services/        # Business logic
-│   ├── models/          # Data models
-│   ├── routes/          # API endpoints
-│   └── utils/           # Helper functions
-├── tests/               # Test cases
-├── migrations/          # Database migrations
-└── config.py            # Configuration
-Testing
-bash
-pytest tests/ --cov=app --cov-report=html
-Contributing
-Fork the repository
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+```text
+    business-analytics-api/
+    ├── app/                  # Application code
+    │   ├── core/            # Core functionality
+    │   ├── services/        # Business logic
+    │   ├── models/          # Data models
+    │   ├── routes/          # API endpoints
+    │   └── utils/           # Helper functions
+    ├── tests/               # Test cases
+    ├── migrations/          # Database migrations
+    └── config.py            # Configuration
+```
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+## Testing
 
-Push to the branch (git push origin feature/AmazingFeature)
+```bash
+    pytest tests/ --cov=app --cov-report=html
+```
+## Contributing
 
-Open a Pull Request
+- Fork the repository
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-License
-This project is licensed under the Commercial License - see the LICENSE.md file for details.
+## License
+This project is licensed under the Commercial License 
 
-Business Analytics API © 2023 - Your Company Name
-Maintained by [Your Name] - contact@yourcompany.com
+Business Analytics API © 2023 - javad torabi
+Maintained by [javad torabi] - javadtorabi462@gmail.com
