@@ -193,7 +193,7 @@ Example API Call
 Project Structure
 
 ```text
-    business-analytics-api/
+    BusinessIntelligenceSystem/
     ├── app/                  # Application code
     │   ├── core/            # Core functionality
     │   ├── services/        # Business logic
@@ -201,6 +201,15 @@ Project Structure
     │   ├── routes/          # API endpoints
     │   └── utils/           # Helper functions
     ├── tests/               # Test cases
+    │ 
+    ├── config/                  # Application code
+    │   ├── core/            # Core functionality
+    │   ├── services/        # Business logic
+    │   ├── models/          # Data models
+    │   ├── routes/          # API endpoints
+    │   └── utils/           # Helper functions
+    ├── tests/               # Test cases
+    ├── data/               
     ├── migrations/          # Database migrations
     └── config.py            # Configuration
 ```
