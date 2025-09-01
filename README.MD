@@ -17,7 +17,6 @@ Comprehensive Business Data Processing and Analysis Platform
 ## Overview
 This API provides advanced business analytics capabilities for company data, offering 10 core analytical functions to transform raw business data into actionable insights. The system is built with Python and Flask, designed for reliability, scalability, and performance.
 
-
 ## Features
 1. Prepare Monthly Data
 Description: Automates the consolidation and standardization of raw business data into structured monthly datasets.
@@ -118,8 +117,6 @@ Description: Dynamic, parameter-driven business intelligence.
     - Filtering by multiple dimensions
     - Export to PDF/Excel
     - Scheduled report generation
-
-## API Endpoints
 
 ## API Endpoints
 
